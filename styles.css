@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-page:#eaeaea;
+    --bg-recipe:#ffffff;
+    --title-and-subtitle:#1b1b1b;
+    --footer-and-legend:#8f8f8f;
+    --others-text:#39393a;
+}
+
+body {
+    background: var(--bg-page);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    color: var(--title-and-subtitle);
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--title-and-subtitle);
+    text-align: center;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--others-text);
+    line-height: 1.625rem;
+    list-style-position: inside;
+}
+
+footer, figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    color: var(--others-text);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    margin: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    background-size: cover;
+}
+
+h1, h2, h3, footer {
+    margin: 1rem;
+}
